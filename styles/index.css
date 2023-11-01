@@ -4,3 +4,12 @@ body{
 label{
     color: coral;
 }
+#username {
+    background-color: hotpink;
+}
+#password {
+    background-color: hotpink;
+}
+#submit {
+    background-color: darkolivegreen;
+}
