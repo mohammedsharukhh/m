@@ -1,0 +1,82 @@
+/* style.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden; /* Prevents scrollbars from appearing */
+   background-color: white;
+}
+
+/* Snowflake Styles */
+.snowflake {
+    position: absolute;
+    top: -10px; /* Start above the viewport */
+    background: url('image.png') no-repeat center center;
+    background-size: contain;
+    width: 20px; /* Size of snowflakes */
+    height: 20px;
+    opacity: 0.8;
+    pointer-events: none; /* Snowflakes won't interfere with other elements */
+    animation: fall linear infinite;
+}
+
+/* Animation Keyframes */
+@keyframes fall {
+    to {
+        transform: translateY(100vh); /* Move snowflakes from top to bottom */
+    }
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Section Styles */
+section {
+    margin: 10px 0; /* Adjust margin to reduce space between sections */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section1 {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px 0; /* Adjust margin to reduce space between sections */
+}
+
+/* Button Styles */
+button {
+    background-color: #f5e6c8;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-image: ('sharuk.jpg');
+    background-color: #f1f3b3;
+}
